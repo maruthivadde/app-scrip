@@ -1,0 +1,131 @@
+.discretion-container{
+    width: 100%;
+    
+}
+
+@media screen and (min-width: 1200px){
+    .discretion-container{
+        width: 45%;
+        margin-left: 28%;
+    }
+}
+.discretion-heading{
+    text-align: center;
+    color: #252020;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Simplon Norm";
+}
+@media screen and (min-width: 1200px){
+    .discretion-heading{
+        text-align: center;
+        color: #252020;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: "Simplon Norm";
+    }
+}
+.discretion{
+    text-align: center;
+    color: #252020;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Simplon Norm";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media screen and (min-width: 1200px){
+    .discretion{
+        text-align: center;
+        color: #252020;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Simplon Norm";
+    }
+}
+
+.recommended-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid rgb(238, 233, 233);
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+@media screen and (min-width: 1200px){
+    .recommended-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border:2px solid rgb(238, 233, 233);
+        width: 95%;
+        margin-left: 30px;
+        border-left: none;
+        border-right: none;
+    }
+}
+.recommended-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+@media screen and (min-width: 1200px){
+     .recommended-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+}
+.recommended-code{
+    color: #252020;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Simplon Norm";
+}
+@media screen and (min-width: 1200px){
+    .recommended-code{
+        color: #252020;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Simplon Norm";
+    }
+}
+.recommended-name{
+    color: #888792;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Adobe Caslon Pro";
+}
+@media screen and (min-width: 1200px){
+    .recommended-name{
+        color: #888792;
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Adobe Caslon Pro";
+    }
+}
+.recommended{
+    color: #252020;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Simplon Norm";
+}
+@media screen and (min-width: 1200px){
+    .recommended{
+        color: #252020;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Simplon Norm";
+    }
+}
