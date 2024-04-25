@@ -1,7 +1,7 @@
 .nav-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border:2px solid rgb(238, 233, 233);
     background-color: #ffffff;
@@ -12,7 +12,7 @@
     .nav-container{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         border:2px solid rgb(238, 233, 233);
         background-color: #ffffff;
@@ -40,7 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100px;
+    width: 140px;
 }
 @media screen and (min-width: 786px){
     .icons-container{
@@ -78,9 +78,15 @@
     font-family: "Inter";
     text-align: center;
 }
-.icon{
-    height: 20px;
-    width: 20px;
+.icons{
+    height: 17px;
+    width: 17px;
+}
+@media screen and (min-width: 786px){
+    .icons{
+        height: 20px;
+        width: 20px;
+    }
 }
 .name{
     color: #252020;
@@ -114,4 +120,22 @@
     color: #252020;
     height: 13px;
     width: 13px;
+}
+.count{
+    background-image: url("https://res.cloudinary.com/manimar/image/upload/v1713789974/Screenshot_14_t0we6q.png");
+    background-size: cover;
+    height: 18px;
+    width: 20px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon-r{
+    color: black;
+    height: 20px;
+    width: 20px;
 }

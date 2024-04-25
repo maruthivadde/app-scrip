@@ -1,19 +1,23 @@
 .li-container{
+    margin-top: 20px;
     list-style-type: none;
-    height: 290px;
-    width: 160px;
+    height: auto;
+    width: 140px;
     border: 2px solid rgb(173, 169, 169);
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 10px;
+    padding-top: 10px;
 }
 @media screen and (min-width: 1200px){
     .li-container{
+        margin-top: 20px;
+        padding-top: 10px;
         list-style-type: none;
-        height: 370px;
+        height: auto;
         width: 190px;
         border: 2px solid rgb(247, 234, 234);
         margin-bottom: 20px;
@@ -57,4 +61,17 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
+}
+
+.button-heart{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.color{
+    color: red;
+}
+.noColor{
+    color: white;
+    border: 2px solid black;
 }
