@@ -3,6 +3,7 @@ import ProductItem from '../ProductItem'
 import Discretion from '../Discretion'
 import Header from '../Header'
 import About from '../About'
+import SideBar from '../SideBar'
 
 import { CiSearch } from "react-icons/ci";
 
@@ -67,7 +68,8 @@ class Products extends Component{
               />
               <CiSearch className="icon"/>
               </div>
-              
+              <div className="side-container">
+                <SideBar/>
               <ul className="ul-container">
               {filterProductsList.map((eachItem)=>(
                     <ProductItem key={eachItem.id} productData={eachItem} 
@@ -75,6 +77,9 @@ class Products extends Component{
                     onchangeButton={this.onchangeButton}/>
                 ))}
               </ul>
+
+              </div>
+             
               <About/>
                 </div>
             </>

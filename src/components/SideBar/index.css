@@ -1,0 +1,37 @@
+.sidebar-container{
+    height: auto;
+    width: 20%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+@media screen and (min-width: 1200px){
+    .sidebar-container{
+        height: auto;
+        width: 20%;
+        background-color: white;
+        margin-left: 30px;
+    }
+}
+.label{
+    color: #252020;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Simplon Norm"
+}
+.side-name{
+    color: #252020;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Simplon Norm"
+}
+.side-name-all{
+    color: #252020;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Simplon Norm"
+}
+.side-br{
+border: 1px solid #252020  ;
+width: 100%;
+}
